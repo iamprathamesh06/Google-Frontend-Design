@@ -1,0 +1,288 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial, sans-serif;
+}
+
+.nav{
+    width: 98%;
+    /* border: 2px solid red; */
+    margin: 10px 15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav ul{ 
+    display: flex;
+}
+.nav ul li{
+    margin: 3px;
+    padding: 1px;
+    list-style: none;
+}
+
+.nav a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.nav ul #item1,#item2,#item3,#item4{
+    margin: 10px 6px;
+    padding: 5px 5px;
+}
+
+.nav ul #item3{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    top: -7px;
+    left: 7px;
+    cursor: pointer;
+}
+.nav ul #item3 img{
+    margin: auto;
+    display: block;
+    position: relative;
+    padding: 10px;
+    top: -5px;
+    left: -6px;
+    opacity: 0.4;
+}
+
+
+.nav ul #item3:hover{
+    background-color:rgba(60,64,67,0.08) ;
+    border-radius: 50%;
+    
+}
+
+
+.nav ul #item4 img{
+    position: relative;
+    top: -12px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    top: -14px;
+    border: 4px solid transparent;
+}
+.nav ul #item4 img:hover{
+    cursor: pointer;
+    border: 4px solid rgba(60,64,67,0.08);
+}
+
+
+
+
+/* Google logo  */
+
+.intro{
+    display: block;
+    margin: auto;
+    /* border: 2px solid red; */
+    position: inherit;
+    width: 25%;
+    height: 10%;
+    /* top: 100px; */
+}
+
+.intro img{
+    height: 140px;
+    width: 325px;
+    display: block;
+    margin: auto;
+}
+
+/* Search Bar  */
+
+/* Search  */
+.search{
+    height: 150px;
+    width: 40%;
+    display: block;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 16px;
+}
+
+.search .searchbar{
+    position: absolute;
+    width: 40%;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid rgba(47, 48, 49, 0.2);
+}
+.search .searchbar:hover{
+    box-shadow: 0 2px 5px rgb(74 68 68);
+}
+
+.search .icons #search-c,#mic{
+    height: 30px;
+    width: 30px;
+    display: inline;
+    /* border: 1px solid blue; */
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.search #search-c{
+    margin-right: 535px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.search #mic{
+    cursor: pointer;
+}
+.search .icons #search-c img{
+    height: 27px;
+    width: 27px;
+    
+}
+.search .icons #mic img{
+    height: 27px;
+    width: 27px;
+}
+
+.search .searchbar .text{
+    position: absolute;
+    top: 6px;
+    left: 45px;
+    height: 34px;
+    width: 520px;
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    /* z-index: -1;  */
+    /* border: 2px solid yellow; */
+}
+
+/* buttons */
+
+.searchbtns{
+    position: relative;
+    top: 60px;
+    /* border: 2px solid pink; */
+    height: 70px;
+    width: 55%;
+    margin: auto;
+}
+.searchbtns .btn{
+    margin-top: 15px;
+    margin-right: 5px;
+    height: 36px;
+    width: 147px;
+    background-color: rgba(60,64,67,0.08);
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.searchbtns .btn:hover{
+    transition: 500ms linear;
+    border: 1px solid #ded4d4;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    color: black;
+}
+.searchbtns .btn:active{
+    border: 1px solid blue;
+}
+.languages{
+    display: block;
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.languages ul{
+    display: flex;
+    margin: auto;
+    width: 84%;
+}
+.languages ul li{
+    list-style: none;
+    margin: 6px;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.languages ul li a {
+    text-decoration: none;
+}
+.languages ul li a:hover {
+    text-decoration: underline;
+}
+footer{
+    position: relative ;
+    top:210px;
+    bottom: 0;
+    left: 0;
+    /* border: 2px solid grey; */
+}
+
+footer .containers{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 102px;
+}
+
+footer .containers .container1{
+    height: 56px;
+    width: 100%;
+    background-color: rgba(60,64,67,0.08) ;
+    border-bottom: 1px solid #ded4d4 ;
+    /* border: 2px solid red; */
+}
+footer .containers .container1 p{
+    position:relative;
+    width: 10%;
+    top: 20px;
+    left: 30px;
+    color: #70757a;
+    font-size: 15px;
+}
+
+footer .containers .container2{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(60,64,67,0.08) ;
+    /* border: 2px solid green; */
+}
+footer .containers .container2 .first{
+    display: flex;
+    width: 50%;
+}
+footer .containers .container2 .first li{
+    font-size: 15px;
+    list-style: none;
+    margin: 10px;
+    color: #70757a;
+    padding-left: 25px;
+    cursor: pointer;
+}
+footer .containers .container2 .second{
+    display: flex;
+    position: absolute;
+    top: 58px;
+    right: 0;
+}
+footer .containers .container2 .second li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 15px;
+    color: #70757a;
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer .containers .container2 .first li:hover,.second li:hover{
+    text-decoration: underline;
+}
